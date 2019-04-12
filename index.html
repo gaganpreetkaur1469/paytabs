@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://www.paytabs.com/express/express.css">
+<script src="https://www.paytabs.com/theme/express_checkout/js/jquery-1.11.1.min.js"></script>
+<script src="https://www.paytabs.com/express/express_checkout_v3.js"></script>
+<!– Button Code for PayTabs Express Checkout –>
+<div class="PT_express_checkout"></div>
+<script type="text/javascript">
+Paytabs("#express_checkout").expresscheckout({
+settings:{
+secret_key: "wYq2h6aFra4aQWlfOS60zVRMtkDlgkHMi8PzeZeFajP1fbg34n4EiVrMg47xpPkHX9hb9wRkPHl5TC9YZdCi934q8bXx0hfYrwaA",
+merchant_id: "10012476",
+amount: "10.00",
+currency: "USD",
+title: "Test Express Checkout Transaction",
+product_names: "Product1",
+order_id: 25,
+url_redirect: "http://www.cyberosine.com/return_url/"
+}
+});
+</script>
